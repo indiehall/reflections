@@ -1,15 +1,21 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, you are now tracking changes to the files. You need to initiliaze to begin versioning - tracking your files with the ability to roll back changes.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The staging area is like a waiting room for your files to be uploaded into the repository. It allows you to compare the documents you'd like commited to what has been commited.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+This makes sure that only the files associated with the logical change are being commited. If an element is changed and it required three files, you're making sure that only that change is reflected in the commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Braches are definitely useful in situations where I want to add new content or experiment but don't want to affect the main program. Branches keep different variations on files, and their histories, organized.
 
 How do the diagrams help you visualize the branch structure?
 
