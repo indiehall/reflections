@@ -26,4 +26,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you're trying out a new feature or something that needs to be tested and worked on outside of the main branch of development. For example, you are are working on a experimental feature that will likely break other parts of your program/introduce bugs, you would create a branch for that development to occur so that you're not messing anything up in the main program.
